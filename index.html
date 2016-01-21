@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia viewer</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <header>
+  <a href="https://en.wikipedia.org/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg">
+    <h1>Wikipedia Viewer</h1>
+  </a>
+</header>
+
+<div class="search-row row row-centered">
+  <div class="col-xs-10 col-centered">
+    <div class="input-group">
+      <input type="text" class="search form-control input-lg" placeholder="Search Wikipedia" id="searchBox">
+      <span class="input-group-btn">
+        <a href="#">
+          <button class="random btn btn-warning input-lg" type="button" id="radnomArticle"><i class="	glyphicon glyphicon-search"></i></button>
+        </a>
+      </span>
+    </div>
+  </div>
+  
+  <div id="contentBox"></div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

@@ -1,0 +1,109 @@
+
+
+body {
+  padding: 20px 20px 100px 20px;
+  font-family: 'Montserrat', sans-serif;
+  background:url("http://s7.postimg.org/ogjavb6a3/wall.jpg") center fixed ;
+  background-size:cover;
+}
+
+/* Stylin' */
+a, a:hover {
+  text-decoration: none;
+}
+
+.random {
+  border-radius: 0 4px 4px 0;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+  h1 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+img {
+    width: 250px;
+    margin: 30px 0;
+  }
+
+
+.search-row {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+
+
+
+#contentBox{
+  width:70vw;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0;
+  color:black;
+  font-weight:bold;
+  font-size:14px;
+    family-font:'Montserrat', sans-serif; 
+}
+
+
+.resultBox{
+ background-color:white;
+  padding: 1px 10px 2px 10px;
+  margin:0px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px     rgba(0, 0, 0, 0.23);
+  border-radius:10px;
+ family-font:'Montserrat', sans-serif; 
+ 
+}
+
+.resultBox a {
+  family-font:'Montserrat', sans-serif; 
+  font-weight:bold;
+}
+
+.resultBox a:hover{
+  color:red;
+  font-weight:bold;
+  font-size:20px;
+}
+
+.resultBox:hover{
+  border-left: 20px;
+  border-right:0;
+  border-top:0;
+  border-bottom:0;
+  border-color:#004D40;
+  border-style:solid;
+}
+
+#radnomArticle{
+  color:black;
+  background-color:grey;
+  border:none;
+  width:70px;
+  font-size:20px;
+  padding-top:7px;
+}
